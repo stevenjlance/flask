@@ -18,3 +18,4 @@ def index():
 @app.route('/about')
 def about():
     return "working on this rn"
+
