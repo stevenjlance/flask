@@ -14,3 +14,7 @@ app = Flask(__name__)
 @app.route('/index')
 def index():
     return "hello is this working?"
+
+@app.route('/testingtesting')
+def index():
+    return "I really hope this works"
