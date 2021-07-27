@@ -15,6 +15,11 @@ app = Flask(__name__)
 def index():
     return "hello is this working?"
 
+
+@app.route('/steven')
+def steven():
+    return "this is steven's code"
+  
 @app.route('/about')
 def about():
     return "working on this rn"
