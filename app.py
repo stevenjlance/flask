@@ -19,4 +19,8 @@ def index():
 @app.route('/steven')
 def steven():
     return "this is steven's code"
+  
+@app.route('/about')
+def about():
+    return "working on this rn"
 
