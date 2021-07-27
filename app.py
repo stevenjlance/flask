@@ -24,3 +24,6 @@ def steven():
 def about():
     return "working on this rn"
 
+@app.route('/another')
+def another():
+    return "try this out"
